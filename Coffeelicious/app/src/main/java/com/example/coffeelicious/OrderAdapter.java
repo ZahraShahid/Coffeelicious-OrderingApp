@@ -70,7 +70,6 @@ public class OrderAdapter extends RecyclerView.Adapter<OrderAdapter.ViewHolder> 
             imageView = itemView.findViewById(R.id.coffeeImage);
             itemView.setOnClickListener(this);
 
-
         }
 
         @Override
@@ -80,15 +79,43 @@ public class OrderAdapter extends RecyclerView.Adapter<OrderAdapter.ViewHolder> 
 
             int position = getAdapterPosition();
 
-//            if (position == 0) {
-//                Intent intent = new Intent(context, InfoActivity.class);
-//                context.startActivity(intent);
-//            }
-//
-//            if (position == 1) {
-//                Intent intent2 = new Intent(context, LatteActivity.class);
-//                context.startActivity(intent2);
-//            }
+            if (position == 0) {
+                Intent intent = new Intent(context, InfoActivity.class);
+                context.startActivity(intent);
+            }
+            if (position == 1) {
+                Intent intent2 = new Intent(context, LatteActivity.class);
+                context.startActivity(intent2);
+            }
+            if (position == 2) {
+                Intent intent3 = new Intent(context, SmoothieActivity.class);
+                context.startActivity(intent3);
+            }
+            if (position == 3) {
+                Intent intent4 = new Intent(context, VanillaActivity.class);
+                context.startActivity(intent4);
+            }
+            if (position == 4) {
+                Intent intent5 = new Intent(context, CappucinoActivity.class);
+                context.startActivity(intent5);
+            }
+            if (position == 5) {
+                Intent intent6 = new Intent(context, ThaiActivity.class);
+                context.startActivity(intent6);
+            }
+            if (position == 6) {
+                Intent intent7 = new Intent(context, TeaActivity.class);
+                context.startActivity(intent7);
+            }
+            if (position == 7) {
+                Intent intent8 = new Intent(context, BubbleActivity.class);
+                context.startActivity(intent8);
+            }
+            if (position == 8) {
+                Intent intent9 = new Intent(context, MatchaActivity.class);
+                context.startActivity(intent9);
+            }
+
         }
     }
 }

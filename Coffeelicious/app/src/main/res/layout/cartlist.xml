@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/orderSummary"
+        android:text="@string/drink_name"
+        android:textStyle="bold"
+        android:id="@+id/drinkNameinOrderSummary"
+        android:layout_marginStart="10dp"
+        tools:ignore="UnknownIdInLayout" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/drinkNameinOrderSummary"
+        android:text="@string/x"
+        android:textStyle="bold"
+        android:id="@+id/quantityinOrderSummary"
+        android:layout_marginStart="10dp"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/hasTopping"
+        android:textStyle="italic"
+
+        android:layout_marginStart="20dp"
+        android:layout_below="@id/drinkNameinOrderSummary"
+        android:text="@string/has_topping"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/hasTopping"
+        android:id="@+id/hasCream"
+        android:textStyle="italic"
+        android:layout_marginStart="20dp"
+        android:layout_below="@id/drinkNameinOrderSummary"
+        android:text="@string/has_cream"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:text="@string/_10"
+        android:id="@+id/priceinOrderSummary"
+        android:layout_marginEnd="10dp"
+        tools:ignore="RelativeOverlap" />
+
+
+</RelativeLayout>

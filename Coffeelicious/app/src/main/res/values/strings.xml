@@ -28,4 +28,27 @@
 
     <string name="match">Smooth and creamy matcha sweetened just right and served with steamed milk. This
     favorite will transport your senses to pure green delight. </string>
+    <string name="drink_name">Drink Name</string>
+    <string name="_5_per_cup">$5 per cup</string>
+    <string name="_0">0</string>
+    <string name="hot">Hot</string>
+    <string name="iced">Iced</string>
+    <string name="add_extra_cream_2">Add Extra Cream $2</string>
+    <string name="toppings_3">Toppings $3</string>
+    <string name="add_to_cart">Add to cart</string>
+    <string name="title_activity_summary">SummaryActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="order_summary">ORDER SUMMARY</string>
+    <string name="clear_the_database">Clear The DATABASE</string>
+    <string name="x">x</string>
+    <string name="has_topping">has topping</string>
+    <string name="has_cream">has cream</string>
+    <string name="_10">$10</string>
 </resources>

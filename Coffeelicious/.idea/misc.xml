@@ -3,7 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/SONY/AndroidStudioProjects/Coffeelicious/app/src/main/res/layout/activity_info.xml" value="0.1" />
         <entry key="..\:/Users/SONY/AndroidStudioProjects/Coffeelicious/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/SONY/AndroidStudioProjects/Coffeelicious/app/src/main/res/layout/activity_summary.xml" value="0.1921875" />
+        <entry key="..\:/Users/SONY/AndroidStudioProjects/Coffeelicious/app/src/main/res/layout/backup_rules.xml" value="0.1" />
+        <entry key="..\:/Users/SONY/AndroidStudioProjects/Coffeelicious/app/src/main/res/layout/cartlist.xml" value="0.1" />
         <entry key="..\:/Users/SONY/AndroidStudioProjects/Coffeelicious/app/src/main/res/layout/listitem.xml" value="0.20416666666666666" />
       </map>
     </option>
